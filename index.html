@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>slider</title>
+</head>
+<body>
+    <div class="slider_wrapper">
+        <div class="slider_item active">
+            <img src="./images/sunrise-in-the-mountains.jpg" alt="">
+            <div class="caption">
+                <h2>mogzauroba</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="slider_item">
+            <img src="./images/285271.jpg" alt="">
+            <div class="caption">
+                <h2>mogzauroba meore</h2>
+                <p>Lorem ipsum dolor sit amet con</p>
+            </div>
+        </div>
+        <div class="slider_item">
+            <img src="./images/109619-full-hd-desktop-wallpaper-1920x1080.jpg" alt="">
+            <div class="caption">
+                <h2>mogzauroba mesame</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    <div class="slider_btns">
+        <button id="prev_slide_btn"><<</button>
+        <button id="next_slide_btn">>></button>
+    </div>
+
+    <div class="slides_diff">
+        <button id="start_btn"> startAutoSliding </button>
+        <button id="stop_btn">stopAutoSliding</button>
+    </div>
+
+    <div class="dot_box">
+        <button class="dot"></button> 
+        <button class="dot"></button> 
+        <button class="dot"></button> 
+      </div>
+      <div id="clock"></div>
+    <script src="app.js"></script>
+</body>
+</html>
